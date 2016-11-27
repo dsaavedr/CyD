@@ -2,163 +2,47 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="device-width, initial-scale=1">
 		<title>Final - CyD</title>
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 		<link href="https://fonts.googleapis.com/css?family=Cinzel:400,700" rel="stylesheet" type="text/css">
-		<style type="text/css">
-			body {
-				font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-				line-height: 1.5;
-				color: #606c71;
-				font-size: 16px
-			}
-			/*
-			header {
-				box-shadow: 0px 5px 15px rgba(0,0,0,.4);
-			}
-			*/
-			h1 {
-				font-family: "Cinzel", serif;
-				text-decoration: none;
-				font-size: 50px;
-				text-align: center;
-				margin-bottom: 30px;
-				margin-top: 60px;
-				color: rgb(0,0,0);
-			}
-
-			h2 {
-				font-family: "Cinzel", serif;
-				font-weight: normal;
-				font-size: 32px;
-				text-align: center;
-				color: rgba(50,50,50,.8);
-				margin-bottom: 50px;
-			}
-
-			.nombres {
-				position: absolute;
-				right: 50%;
-				display: inline-block;
-				width: 150px;
-				/*background-color: rgba(200,200,200,.6);*/
-				list-style: none;
-				text-align: left;
-				margin-bottom: 10px;
-				margin-right: 5%;
-				font-style: italic;
-			}
-
-			.números {
-				position: absolute;
-				left: 50%;
-				display: inline-block;
-				width: 150px;
-				/*background-color: rgba(200,200,200,.6);*/
-				list-style: none;
-				text-align: right;
-				margin-left: 5%;
-				margin-bottom: 10px
-			}
-
-			.nombres:hover, .números:hover {
-				color: #000000;
-				text-shadow: 0px 0px 1px rgba(0,0,0,.4);
-			}
-
-			hr {
-				margin-top: 200px;
-				width: 70%;
-				color: rgba(250,250,250,.8);
-				background-color: rgba(200,200,200,.6);
-				margin-bottom: 50px;
-			}
-
-			.buttons a:link, .buttons a:visited {
-				text-decoration: none;
-				background-color: rgba(160,160,160,.5);
-				color: #606c71;
-				border-color: rgba(0,0,0,.3);
-				border-style: solid;
-				border-width: 1px;
-				border-radius: 4px;
-				box-shadow: 0px 0px 15px rgba(0,0,0,.25);
-				padding: 6px;
-			}
-
-			.buttons a:active {
-				box-shadow: 0px 0px 20px rgba(0,0,0,.5);
-				color: black;
-				border-width: 1.5px;
-			}
-
-			#prog {
-				display: inline-block;
-				position: absolute;
-				right: 50%;
-				margin-right: 180px;
-			}
-
-			#video {
-				display: inline-block;
-				position: absolute;
-				width: 130px;
-				left: 50%;
-				margin-left: -68px;/*.5ancho + .5padding*/
-				text-align: center;
-			}
-
-			#col {
-				display: inline-block;
-				position: absolute;
-				left: 50%;
-				margin-left: 180px;
-			}
-
-			p {
-				margin-top: 150px;
-				margin-right: auto;
-				margin-left: auto;
-				width: 70%; 
-				text-align: justify;
-			}
-
-			img {
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-				margin-bottom: 50px;
-				box-shadow: 0px 0px 20px rgba(0,0,0,.2);
-			}
-
-		</style>
+		<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet2.css" media="screen">
 	</head>
-	<header>
+	<body>
 		<h1 id="título">Título de la página</h1>
 		<h2 id="subtítulo">Subtítulo de la página</h2>
-		<lu class="nombres" id="Autores">
-			<li class="aut" id="a1">Autor 1</li>
-			<li class="aut" id="a2">Autor 2</li>
-			<li class="aut" id="a3">Autor 3</li>
-			<li class="aut" id="a4">Autor 4</li>
-		</lu>
-		<lu class="números" id="códigos">
-			<li class="cód" id="c1">Código 1</li>
-			<li class="cód" id="c2">Código 2</li>
-			<li class="cód" id="c3">Código 3</li>
-			<li class="cód" id="c4">Código 4</li>
-		</lu>
-	</header>
-	<hr>
-	<body>
 
-		<img src="Mapa.jpg" id="Mapa" alt="Foto de gente altamente comprometida" width="40%">
+		<hr>
+
+		<section id="listas">
+			<section class="nombres">
+				<lu class="l1" id="Autores">
+					<li class="aut" id="a1">Autor 1</li>
+					<li class="aut" id="a2">Autor 2</li>
+					<li class="aut" id="a3">Autor 3</li>
+					<li class="aut" id="a4">Autor 4</li>
+				</lu>
+			</section>
+			<section class="números">
+				<lu class="l2" id="códigos">
+					<li class="cód" id="c1">Código 1</li>
+					<li class="cód" id="c2">Código 2</li>
+					<li class="cód" id="c3">Código 3</li>
+					<li class="cód" id="c4">Código 4</li>
+				</lu>
+			</section>	
+		</section>
+
+		<hr>
 
 		<section class="buttons">
 			<a href="Programa" target="_blank" class="link" id="prog">Programa radial</a>
 			<a href="Video" target="_blank" class="link" id="video">Video</a>
 			<a href="Columna" target="_blank" class="link" id="col">Columna de opinión</a>
 		</section>
+
+		<img src="Mapa.jpg" id="Foto" alt="Foto de gente altamente comprometida">
+
 		<section class="body-text">
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
