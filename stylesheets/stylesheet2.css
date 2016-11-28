@@ -1,5 +1,8 @@
 * {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
 	padding: 0;
 	margin: 0;
 }
@@ -32,11 +35,12 @@ h2 {
 
 #listas {
 	/*background-color: rgba(0,0,0,.2);*/
-	width: 30%;
+	width: 40%;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 40px;
 	overflow: hidden;
+	font-size: 14px;
 }
 
 .nombres {
@@ -91,20 +95,53 @@ hr {
 
 .link:hover {
 	background-color: rgba(110,222,241,.7);
-	box-shadow: 0px 3px 8px rgba(0,0,0,.8);
 }
 
 .link:active {
+	box-shadow: 0px 3px 8px rgba(0,0,0,.8);
 	background-color: rgba(110,222,241,.8);
 	color: black;
 }
 
-#Foto {
+/*#Foto {
 		display: block;
-		width: 60%;
+		width: 40%;
 		margin-left: auto;
 		margin-right: auto;
-	}
+		margin-bottom: 60px;
+		box-shadow: 0px 4px 10px rgba(0,0,0,.8);
+	}*/
+
+.pic {
+  border: 2px solid rgba(0,0,0,.4);  
+  /*float: right;*/
+  height: 500px;
+  width: 400px;
+  margin: 15px;
+  overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 60px;
+  
+  -webkit-box-shadow: 0px 5px 15px rgba(0,0,0,.8);
+          box-shadow: 0px 5px 15px rgba(0,0,0,.8);  
+}
+
+.grow img {
+  /*height: 300px;*/
+  width: 400px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 500px;
+  /*height: 400px;*/
+}
 
 p {
 	width: 60%;
@@ -112,9 +149,11 @@ p {
 	margin-right: auto;
 }
 
+/*Mobile version*/
+
 @media (max-width: 600px) {
 	.buttons {
-		margin-bottom: 15px;
+		margin-bottom: 50px;
 		margin-top: 20px;
 	}
 
@@ -131,19 +170,21 @@ p {
 	}
 
 	h1 {
-		font-size: 35px;
+		font-size: 30px;
 		width: 90%;
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 0;
+		margin-top: 15px;
+		margin-bottom: 20px;
 	}
 
 	h2 {
+		display: none;
 		font-size: 25px;
 		width: 80%;
 		margin-left: auto;
 		margin-right: auto;
-		margin-bottom: 0;
+		margin-bottom: 10px;
 	}
 
 	hr {
@@ -153,19 +194,27 @@ p {
 
 	#listas {
 		width: 80%;
-		font-size: 18px;
+		/*font-size: 18px;*/
 		margin-top: 0;
 		margin-bottom: 10px;
 	}
 
-	#Foto {
+	/*#Foto {
 		width: 80%;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 30px;
-	}
+	}*/
 
 	p {
 		width: 80%
+	}
+}
+
+/*Medium-sized devices*/
+
+@media (min-width: 601px) and (max-width: 944px) {
+	.buttons {
+		width: 586px;
 	}
 }
