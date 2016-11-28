@@ -20,7 +20,7 @@ h1 {
 	font-size: 50px;
 	text-align: center;
 	margin-bottom: 30px;
-	margin-top: 60px;
+	margin-top: 50px;
 	color: rgb(0,0,0);
 }
 
@@ -68,13 +68,46 @@ hr {
 	margin-bottom: 50px;
 }
 
+hr.menu {
+	margin-bottom: 10px;
+}
+
+.video, .audio {
+	/*background-color: yellow;*/
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.video > iframe {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 60%;
+	box-shadow: 0px 5px 15px rgba(0,0,0,.8);
+}
+
+.audio > iframe {
+	display: block;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 5px 15px rgba(0,0,0,.8);
+}
+
 .buttons {
 	/*background-color: rgba(0,0,0,.2);*/
-	width: 62%;
+	width: 60%;
 	margin-right: auto;
 	margin-left: auto;
 	overflow: hidden;
+}
 
+
+
+.menu-btns {
+	/*width: 60%;*/
+	/*margin-right: auto;*/
+	/*margin-left: auto;*/
 }
 
 .link:link, .link:visited {
@@ -88,7 +121,7 @@ hr {
 	border-radius: 8px;
 	box-shadow: 0px 6px 4px rgba(0,0,0,.6);
 	margin-top: 20px;
-	margin-bottom: 20%;
+	margin-bottom: 80px;
 	margin-left: 1%;
 	color: rgba(0,0,0,.7);
 }
@@ -143,10 +176,14 @@ hr {
   /*height: 400px;*/
 }
 
-p {
+.body-text {
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.row {
+	text-align: justify;
 }
 
 /*Mobile version*/
@@ -155,6 +192,19 @@ p {
 	.buttons {
 		margin-bottom: 50px;
 		margin-top: 20px;
+	}
+
+	.pic {
+		width: 300px;
+		height: 380px;
+	}
+
+	.grow img {
+		width: 300px;
+	}
+
+	.grow img:hover {
+		width: 375px;
 	}
 
 	.link:link, .link:visited {
@@ -206,15 +256,38 @@ p {
 		margin-bottom: 30px;
 	}*/
 
-	p {
+	.body-text {
 		width: 80%
+	}
+
+	.video > iframe {
+		width: 80%;
 	}
 }
 
 /*Medium-sized devices*/
 
-@media (min-width: 601px) and (max-width: 944px) {
+@media (min-width: 601px) and (max-width: 974px) {
 	.buttons {
 		width: 586px;
 	}
+
+	/*.navbar-header {
+		display: none;
+	}*/
+
+	/*.navbar {
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: .9em;
+	}*/
 }
+
+/*@media (min-width: 945px) {
+	.navbar {
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}*/
