@@ -111,7 +111,8 @@ hr.menu {
 }
 
 .link:link, .link:visited {
-	background-color: rgba(110,222,241,.6);
+	/*background-color: rgba(110,222,241,.6);*/
+	background-image: linear-gradient(120deg, rgba(110,222,241,.6), rgba(88,178,193,.7));
 	display: block;
 	float: left;
 	padding: 1em;
