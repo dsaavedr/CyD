@@ -52,6 +52,7 @@ h2 {
 	float: left;
 }
 
+
 .números {
 	/*border: 1px solid black;*/
 	width: 50%;
@@ -59,6 +60,10 @@ h2 {
 	float: right;
 	list-style: none;
 	text-align: right;
+}
+
+.nombres:hover, .números:hover {
+	color: black;
 }
 
 hr {
