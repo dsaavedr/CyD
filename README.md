@@ -1,2 +1,4 @@
-# CyD
-Página para el blog del trabajo final de CyD.
+CyD
+Trabajo Final
+Daniel Saavedra - 201628788
+Universidad de los Andes
