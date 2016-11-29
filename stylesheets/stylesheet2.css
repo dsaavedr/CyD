@@ -35,7 +35,7 @@ h2 {
 
 #listas {
 	/*background-color: rgba(0,0,0,.2);*/
-	width: 40%;
+	width: 35%;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 40px;
@@ -45,7 +45,7 @@ h2 {
 
 .nombres {
 	/*border: 1px solid black;*/
-	width: 50%;
+	width: 63%;
 	list-style: none;
 	text-align: left;
 	padding: 10px 0px 10px 0px;
@@ -55,7 +55,7 @@ h2 {
 
 .números {
 	/*border: 1px solid black;*/
-	width: 50%;
+	width: 37%;
 	padding: 10px 0px 10px 0px;
 	float: right;
 	list-style: none;
