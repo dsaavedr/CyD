@@ -181,27 +181,19 @@ hr.menu {
 #Foto {
 	width: 100%;
 }
-.demo-2 p,.demo-2 h2 {
+.demo-2 h2 {
     color: rgba(0,0,0,.7);
     padding:10px;
     /*left:-20px;*/
     top:30px;
-    position:relative
-}
-.demo-2 p {
-    /*font-family:'Lato';*/
-    font-size:12px;
-    line-height:18px;
-    margin:0
-}
-.demo-2 h2 {
+    position:relative;
     font-size:25px;
     line-height:24px;
     width: 100%;
     text-align: center;
     margin:0;
-    /*font-family:'Lato'*/
 }
+
 .effect img {
     position:absolute;
     left:0;
@@ -217,7 +209,7 @@ hr.menu {
     bottom:-96px;
     padding-top:100px
 }
-h2.zero,p.zero {
+h2.zero {
     margin:0;
     padding:0
 }
