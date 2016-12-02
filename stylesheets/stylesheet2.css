@@ -211,10 +211,15 @@ hr.menu {
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 50px;
 }
 
 .row {
 	text-align: justify;
+}
+
+#texto-columna {
+	margin-bottom: 50px;
 }
 
 /*Mobile version*/
