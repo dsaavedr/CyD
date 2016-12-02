@@ -204,16 +204,16 @@ hr.menu {
     -webkit-transition:bottom .3s ease-in-out;
     -moz-transition:bottom .3s ease-in-out;
     -o-transition:bottom .3s ease-in-out;
-    transition:bottom .3s ease-in-out
+    transition:bottom .3s ease-in-out;
 }
 .effect img.top:hover {
     bottom:-96px;
-    padding-top:100px
+    padding-top:100px;
     box-shadow: 0 -10px 50px black;
 }
 h2.zero {
     margin:0;
-    padding:0
+    padding:0;
 }
 
 .body-text {
@@ -321,7 +321,7 @@ h2.zero {
 	    /*padding:10px;*/
 	    /*left:-20px;*/
 	    top:10px;
-	    position:relative
+	    position:relative;
 	}
 	
 	.demo-2 h2 {
@@ -340,19 +340,19 @@ h2.zero {
 	    -webkit-transition:bottom .3s ease-in-out;
 	    -moz-transition:bottom .3s ease-in-out;
 	    -o-transition:bottom .3s ease-in-out;
-	    transition:bottom .3s ease-in-out
+	    transition:bottom .3s ease-in-out;
 	}
 	.effect img.top:hover {
 	    bottom:-48px;
-	    padding-top:5px
+	    padding-top:5px;
 	}
 	h2.zero,p.zero {
 	    margin:0;
-	    padding:0
+	    padding:0;
 	}
 
 	.body-text {
-		width: 90%
+		width: 90%;
 	}
 
 	.video > iframe {
