@@ -115,7 +115,7 @@ hr.menu {
 	width: 60%;
 	margin-right: auto;
 	margin-left: auto;
-	/*overflow: hidden;*/
+	overflow: hidden;
 }
 
 
@@ -157,6 +157,7 @@ hr.menu {
 	margin-left: 2.25%;
 }
 
+
 /*#Foto {
 		display: block;
 		width: 40%;
@@ -166,45 +167,59 @@ hr.menu {
 		box-shadow: 0px 4px 10px rgba(0,0,0,.8);
 	}*/
 
-.pic {
-  /*border: 2px solid rgba(0,0,0,.4);  */
-  /*float: right;*/
-  /*height: 530px;*/
-  /*width: 800px;*/
-  width: 60%; /*85*/
-  margin: 15px;
-  text-align: center;
-  overflow: hidden;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(0,0,0,.6);
-  
-  -webkit-box-shadow: 0px 5px 15px rgba(0,0,0,.8);
-          box-shadow: 0px 5px 15px rgba(0,0,0,.8);  
+.demo-2 {
+    position:relative;
+    width:600px;
+    height:399px;
+    overflow:hidden;
+    /*float:left;*/
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    background-image: linear-gradient(90deg, rgba(110,222,241,.6), rgba(88,178,193,.7));
 }
-
-.grow img {
-  /*height: 300px;*/
-  /*width: 792px;*/
-  width: 99%;
-  margin: 2px;
- 
-  -webkit-transition: all .3s ease;
-     -moz-transition: all .3s ease;
-       -o-transition: all .3s ease;
-      -ms-transition: all .3s ease;
-          transition: all .3s ease;
+#Foto {
+	width: 100%;
 }
- 
-.grow img:hover {
-  /*width: 800px;*/
-  width: 100%;
-  margin: 0;
-  /*height: 400px;*/
+.demo-2 p,.demo-2 h2 {
+    color: rgba(0,0,0,.7);
+    padding:10px;
+    /*left:-20px;*/
+    top:30px;
+    position:relative
+}
+.demo-2 p {
+    /*font-family:'Lato';*/
+    font-size:12px;
+    line-height:18px;
+    margin:0
+}
+.demo-2 h2 {
+    font-size:25px;
+    line-height:24px;
+    width: 100%;
+    text-align: center;
+    margin:0;
+    /*font-family:'Lato'*/
+}
+.effect img {
+    position:absolute;
+    left:0;
+    bottom:0;
+    cursor:pointer;
+    /*margin:-12px 0;*/
+    -webkit-transition:bottom .3s ease-in-out;
+    -moz-transition:bottom .3s ease-in-out;
+    -o-transition:bottom .3s ease-in-out;
+    transition:bottom .3s ease-in-out
+}
+.effect img.top:hover {
+    bottom:-96px;
+    padding-top:100px
+}
+h2.zero,p.zero {
+    margin:0;
+    padding:0
 }
 
 .body-text {
@@ -301,12 +316,51 @@ hr.menu {
 		margin-bottom: 10px;
 	}
 
-	/*#Foto {
-		width: 80%;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 30px;
-	}*/
+	.demo-2 {
+		width: 320px;
+		height: 212px;
+	}
+
+	.demo-2 p,.demo-2 h2 {
+	    color: rgba(0,0,0,.7);
+	    /*padding:10px;*/
+	    /*left:-20px;*/
+	    top:10px;
+	    position:relative
+	}
+	.demo-2 p {
+	    /*font-family:'Lato';*/
+	    font-size:12px;
+	    line-height:18px;
+	    margin:0
+	}
+	.demo-2 h2 {
+		display: inline-block;
+	    font-size:14px;
+	    /*line-height:24px;*/
+	    width: 100%;
+	    text-align: center;
+	    margin:0;
+	}
+	.effect img {
+	    position:absolute;
+	    left:0;
+	    bottom:0;
+	    cursor:pointer;
+	    /*margin:-12px 0;*/
+	    -webkit-transition:bottom .3s ease-in-out;
+	    -moz-transition:bottom .3s ease-in-out;
+	    -o-transition:bottom .3s ease-in-out;
+	    transition:bottom .3s ease-in-out
+	}
+	.effect img.top:hover {
+	    bottom:-48px;
+	    padding-top:5px
+	}
+	h2.zero,p.zero {
+	    margin:0;
+	    padding:0
+	}
 
 	.body-text {
 		width: 90%
