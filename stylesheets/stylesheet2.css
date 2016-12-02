@@ -148,7 +148,7 @@ hr.menu {
 }
 
 .link:active {
-	box-shadow: 0px 3px 8px rgba(0,0,0,.8);
+	box-shadow: 0 3px 8px rgba(0,0,0,.8);
 	background-color: rgba(110,222,241,.8);
 	color: black;
 }
@@ -232,7 +232,7 @@ h2.zero,p.zero {
 }
 
 .body-text ol {
-	padding: 30px 0px 0px 30px;
+	padding: 30px 0 0 30px;
 }
 
 .in-text-link:link, .in-text-link:visited {
