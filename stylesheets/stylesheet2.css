@@ -177,6 +177,7 @@ hr.menu {
     margin-left: auto;
     margin-bottom: 30px;
     background-image: linear-gradient(90deg, rgba(110,222,241,.6), rgba(88,178,193,.7));
+    box-shadow: 0 6px 25px;
 }
 #Foto {
 	width: 100%;
@@ -208,6 +209,7 @@ hr.menu {
 .effect img.top:hover {
     bottom:-96px;
     padding-top:100px
+    box-shadow: 0 -10px 50px black;
 }
 h2.zero {
     margin:0;
@@ -311,6 +313,7 @@ h2.zero {
 	.demo-2 {
 		width: 320px;
 		height: 212px;
+		box-shadow: 0 5px 18px;
 	}
 
 	.demo-2 p,.demo-2 h2 {
